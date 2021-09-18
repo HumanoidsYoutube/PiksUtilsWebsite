@@ -1,0 +1,43 @@
+.really-long-name-and-its-totally-unneeded-but-im-a-web-developer-so-i-do-it {
+    text-align: center;
+    color: black;
+    font-family: 'Gluten', sans-serif;
+    font-size: 55px;
+}
+.really-long-name-and-its-totally-unneeded-but-im-a-web-developer-so-i-do-it fancy {
+    font-family: 'Grey Qo', cursive;
+    font-weight: 900;
+}
+#btn {
+    background-image: url('https://maxcdn.icons8.com/Share/icon/p1em/User_Interface/download1600.png');
+    background-size: 75px;
+    background-position: 12.5px;
+    background-repeat: no-repeat;
+    background-color: rgb(243, 243, 255);
+    filter: drop-shadow(20px 20px 0px #999);
+    width: 325px;
+    height: 100px;
+    padding-left: 100px;
+    transition: ease-out 0.3s;
+    margin: auto;
+}
+#btn p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    letter-spacing: 5px;
+    cursor: pointer;
+    color: black;
+}
+#btn:hover {
+    box-shadow: inset 475px 0 0 0 rgb(165, 179, 255);
+    padding-left: 30px;
+    width: 330px;
+}
+#overlay {
+    background-color: black;
+    display: none;
+}
